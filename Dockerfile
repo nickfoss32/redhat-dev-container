@@ -16,4 +16,7 @@ RUN yum install -y make
 # install gcc (version 8) and c++ libs
 RUN yum install -y gcc
 RUN yum install -y gcc-c++
-RUN yum install libstdc++
+RUN yum install -y libstdc++
+
+# install git
+RUN yum install -y git
